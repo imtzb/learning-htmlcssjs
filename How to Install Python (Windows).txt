@@ -1,3 +1,5 @@
+Udacityç½‘ç«™https://classroom.udacity.com/nanodegrees/nd000/parts/0001345403/modules/356813882475460/lessons/4137319262/concepts/49514623150923
+
 Writing and Running Python on Windows
 These are the instructions on installing and using Python on a Windows machine; if you have a Mac (OS X), the instructions were on the previous slide.
 
@@ -15,11 +17,11 @@ Windows computers don't come with Python pre-installed, so If you want to run yo
 
 NOTE: do not install Python 3. We are using Python 2 in this Nanodegree program.
 
-Installing Python
+Installing Python    https://www.python.org/downloads/windows/
 These instructions will walk you through all of the steps needed to install Python onto your computer.
 
-Navigate to the website that holds downloads for the most recent version of Python 2, which is currently 2.7.11.
-Download the Windows x86 MSI installer. If you're sure that your machine runs a 64-bit version of Windows, feel free to download the Windows x86-64 MSI installer instead.
+Navigate to the website ï¼ˆhttps://www.python.org/downloads/release/python-2710/ ï¼‰that holds downloads for the most recent version of Python 2, which is currently 2.7.11ï¼ˆhttps://www.python.org/downloads/release/python-2711/ï¼‰.
+Download the Windows x86 MSI installer. If you're sure that your machine runs a 64-bit version of Windows, feel free to download the Windows x86-64 MSI installer instead.(https://www.python.org/ftp/python/2.7.10/python-2.7.10.amd64.msi)
 Once the download is finished, locate the file (it'll probably be in your Downloads directory) and run it.
 
 Download Location
@@ -38,9 +40,9 @@ To confirm that your installation was successful, open IDLE, a program installed
 * Windows 7 (or earlier): Use the Start Menu to go to All Programs, then Python 2.7, and, finally, IDLE (Python GUI).
 * Windows 8: Search for IDLE. Currently, you can search by swiping from the right edge of the screen or by using the lower-right corner of your screen if you have a mouse.
 Hooray, you're done! Once you have Python installed, you can run code by opening your .py file in Sublime and then selecting Tools > Build to run your code!
-If you find that Python isn't being located with Sublime, the easiest way to fix this is to reinstall Python, as you most likely forgot to click the 'Add python.exe to PATH' dialog box. For other programs to run Python, your Python installation needs to be in the environmental variable ¡®PATH¡¯. If you don't have the installer do this for your automatically, it needs to be specifically set up in a machine with a Windows operationg system.
+If you find that Python isn't being located with Sublime, the easiest way to fix this is to reinstall Python, as you most likely forgot to click the 'Add python.exe to PATH' dialog box. For other programs to run Python, your Python installation needs to be in the environmental variable Â¡Â®PATHÂ¡Â¯. If you don't have the installer do this for your automatically, it needs to be specifically set up in a machine with a Windows operationg system.
 
 Again, ideally you can follow the Python installation instructions exactly as described above to have this environmental variable correctly altered automatically; however, if you are for some reason prevented from doing so, you could instead follow the below instructions:
 
-Go to your Start Menu, select ¡®Control Panel¡¯, followed by ¡®System and Security¡¯, ¡®System¡¯, ¡®Advanced system settings¡¯, and then hit the ¡®Environmental Variables¡¯ button.
-On the ¡®System variables¡¯ drop down menu, select ¡®Path¡¯. You should see ¡®C:\Python27\¡¯ somewhere here if Python is installed correctly (and in the default location; you are looking for the place you installed Python, not necessarily 'C:\Python27\'); if it is not there, you can add it by clicking the ¡®Edit¡¯ button and adding your Python install location to the ¡®Variable value¡¯. Different locations are separated by semicolons (;).
+Go to your Start Menu, select Â¡Â®Control PanelÂ¡Â¯, followed by Â¡Â®System and SecurityÂ¡Â¯, Â¡Â®SystemÂ¡Â¯, Â¡Â®Advanced system settingsÂ¡Â¯, and then hit the Â¡Â®Environmental VariablesÂ¡Â¯ button.
+On the Â¡Â®System variablesÂ¡Â¯ drop down menu, select Â¡Â®PathÂ¡Â¯. You should see Â¡Â®C:\Python27\Â¡Â¯ somewhere here if Python is installed correctly (and in the default location; you are looking for the place you installed Python, not necessarily 'C:\Python27\'); if it is not there, you can add it by clicking the Â¡Â®EditÂ¡Â¯ button and adding your Python install location to the Â¡Â®Variable valueÂ¡Â¯. Different locations are separated by semicolons (;).
