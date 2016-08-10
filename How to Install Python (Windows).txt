@@ -1,0 +1,46 @@
+Writing and Running Python on Windows
+These are the instructions on installing and using Python on a Windows machine; if you have a Mac (OS X), the instructions were on the previous slide.
+
+Writing Python Code on your own Computer
+Open your text editor
+Select File > New File
+* this will create a tab with the name "Untitled"
+Select File > Save As
+Navigate to the folder where you want to save your file.
+Give your file a name like my_code.py
+Note: your code must end with the .py extension
+Write your Python code in the tab which now has the name of your file (my_code.py for example)
+Running Python Code on your own Computer
+Windows computers don't come with Python pre-installed, so If you want to run your code on your own computer, you'll need to install Python 2.
+
+NOTE: do not install Python 3. We are using Python 2 in this Nanodegree program.
+
+Installing Python
+These instructions will walk you through all of the steps needed to install Python onto your computer.
+
+Navigate to the website that holds downloads for the most recent version of Python 2, which is currently 2.7.11.
+Download the Windows x86 MSI installer. If you're sure that your machine runs a 64-bit version of Windows, feel free to download the Windows x86-64 MSI installer instead.
+Once the download is finished, locate the file (it'll probably be in your Downloads directory) and run it.
+
+Download Location
+Read the below number 6! This will be the only thing you will need to go out of your way to do when following the installation wizard, and it is a very important step! (The most important part of that step is shown below; you aren't quite there yet, though.) 
+Python PATH
+Going back to where you currently are in the installation process: Follow the installation wizard. Let Python install to its default directory, C:\Python27\.
+
+Python Installation Directory
+Ensure that both pip is installed and that Python is added to your PATH.
+
+Installation Options 
+
+Python PATH
+To confirm that your installation was successful, open IDLE, a program installed by Python that makes it easy to edit and run Python code.
+
+* Windows 7 (or earlier): Use the Start Menu to go to All Programs, then Python 2.7, and, finally, IDLE (Python GUI).
+* Windows 8: Search for IDLE. Currently, you can search by swiping from the right edge of the screen or by using the lower-right corner of your screen if you have a mouse.
+Hooray, you're done! Once you have Python installed, you can run code by opening your .py file in Sublime and then selecting Tools > Build to run your code!
+If you find that Python isn't being located with Sublime, the easiest way to fix this is to reinstall Python, as you most likely forgot to click the 'Add python.exe to PATH' dialog box. For other programs to run Python, your Python installation needs to be in the environmental variable ¡®PATH¡¯. If you don't have the installer do this for your automatically, it needs to be specifically set up in a machine with a Windows operationg system.
+
+Again, ideally you can follow the Python installation instructions exactly as described above to have this environmental variable correctly altered automatically; however, if you are for some reason prevented from doing so, you could instead follow the below instructions:
+
+Go to your Start Menu, select ¡®Control Panel¡¯, followed by ¡®System and Security¡¯, ¡®System¡¯, ¡®Advanced system settings¡¯, and then hit the ¡®Environmental Variables¡¯ button.
+On the ¡®System variables¡¯ drop down menu, select ¡®Path¡¯. You should see ¡®C:\Python27\¡¯ somewhere here if Python is installed correctly (and in the default location; you are looking for the place you installed Python, not necessarily 'C:\Python27\'); if it is not there, you can add it by clicking the ¡®Edit¡¯ button and adding your Python install location to the ¡®Variable value¡¯. Different locations are separated by semicolons (;).
